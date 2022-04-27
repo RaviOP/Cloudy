@@ -1,0 +1,27 @@
+{
+	"name": "cloudy-backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "node src/server",
+		"server": "env-cmd -f ./src/config/.env nodemon src/server",
+		"client": "npm start --prefix frontend"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"cors": "^2.8.5",
+		"express": "^4.17.3",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.2.9",
+		"multer": "^1.4.4"
+	},
+	"devDependencies": {
+		"env-cmd": "^10.1.0",
+		"nodemon": "^2.0.15"
+	}
+}
