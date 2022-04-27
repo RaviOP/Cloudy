@@ -2,3 +2,5 @@ node_modules
 uploads
 package-lock.json
 src/config
+
+.DS_Store
